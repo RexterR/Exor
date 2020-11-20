@@ -1,5 +1,5 @@
-import { AuthorizationError } from "../errors/AuthorizationError";
-import { CustomError } from "../errors/CustomError";
+import { AuthorizationError } from "../src/errors/AuthorizationError";
+import { CustomError } from "../src/errors/CustomError";
 const Message = "Authorization Error";
 describe("AuthorizationError", () => {
   it("Error is instance of CustomError", () => {

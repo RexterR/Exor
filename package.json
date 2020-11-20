@@ -1,14 +1,17 @@
 {
-  "name": "Exor",
+  "name": "exor",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build":"rm -rf dist && tsc",
     "test": "jest --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {"url": "git@github.com:RexterR/Exor.git"},
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "@types/jest": "^26.0.15",
     "@types/node": "^14.14.8",

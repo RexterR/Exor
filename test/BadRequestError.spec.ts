@@ -1,5 +1,5 @@
-import { BadRequestError } from "../errors/BadRequestError";
-import { CustomError } from "../errors/CustomError";
+import { BadRequestError } from "../src/errors/BadRequestError";
+import { CustomError } from "../src/errors/CustomError";
 const Message = "Bad Request : Request failed";
 describe("BadRequestError", () => {
   it("Error is instance of CustomError", () => {
