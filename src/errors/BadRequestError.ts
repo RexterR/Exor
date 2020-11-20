@@ -1,4 +1,3 @@
-import { mainModule } from "process";
 import { CustomError } from "./CustomError";
 export class BadRequestError extends CustomError {
   statusCode = 400;
