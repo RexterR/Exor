@@ -7,7 +7,7 @@ import { RequestTimeOutError } from "./errors/RequestTimeOutError"
 import { validateRequest } from "./middlewares/validateRequest";
 import { errorHandler } from "./middlewares/errorHandler";
 import { PaymentRequiredError } from "./errors/PaymentRequiredError"
-//import { MethodNotAllowed } from "./errors/MethodNotAllowed"
+import { MethodNotAllowed } from "./errors/MethodNotAllowed"
 //import { ForbiddenError } from "./errors/ForbiddenError"
 
 export {
@@ -20,6 +20,6 @@ export {
   BadRequestError,
   RequestTimeOutError,
   PaymentRequiredError,
-  //MethodNotAllowed,
+  MethodNotAllowed,
   //ForbiddenError
 };
