@@ -8,7 +8,7 @@ import { validateRequest } from "./middlewares/validateRequest";
 import { errorHandler } from "./middlewares/errorHandler";
 import { PaymentRequiredError } from "./errors/PaymentRequiredError"
 import { MethodNotAllowed } from "./errors/MethodNotAllowed"
-//import { ForbiddenError } from "./errors/ForbiddenError"
+import { ForbiddenError } from "./errors/ForbiddenError"
 
 export {
   errorHandler as default,
@@ -21,5 +21,5 @@ export {
   RequestTimeOutError,
   PaymentRequiredError,
   MethodNotAllowed,
-  //ForbiddenError
+  ForbiddenError
 };
