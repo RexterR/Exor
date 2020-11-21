@@ -3,6 +3,7 @@ import { AuthorizationError } from "./errors/AuthorizationError";
 import { DatabaseConnectionError } from "./errors/DatabaseConnectionError";
 import { NotFoundError } from "./errors/NotFoundError";
 import { RequestValidationError } from "./errors/RequestValidationError";
+import {RequestTimeOutError} from "./errors/RequestTimeOutError"
 import { validateRequest } from "./middlewares/validateRequest";
 import { errorHandler } from "./middlewares/errorHandler";
 export  {
@@ -13,4 +14,5 @@ export  {
   NotFoundError,
   validateRequest,
   BadRequestError,
+  RequestTimeOutError
 };
