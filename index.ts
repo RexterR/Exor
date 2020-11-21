@@ -5,10 +5,10 @@ import { NotFoundError } from "./src/errors/NotFoundError";
 import { RequestValidationError } from "./src/errors/RequestValidationError";
 import { validateRequest } from "./src/middlewares/validateRequest";
 import { errorHandler } from "./src/middlewares/errorHandler";
-export {
+export  {
+  errorHandler as default,
   BadRequestError,
   AuthorizationError,
-  errorHandler,
   DatabaseConnectionError,
   RequestValidationError,
   NotFoundError,
