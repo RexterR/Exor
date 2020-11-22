@@ -11,6 +11,7 @@ import { MethodNotAllowed } from "./errors/MethodNotAllowed"
 import { ForbiddenError } from "./errors/ForbiddenError"
 import { NotAcceptableError } from "./errors/NotAcceptableError"
 import { ProxyAuthReqError } from "./errors/ProxyAuthReqError"
+import { ConflictError } from "./errors/ConflictError"
 
 export {
   errorHandler as default,
@@ -25,5 +26,6 @@ export {
   MethodNotAllowed,
   ForbiddenError,
   NotAcceptableError,
-  ProxyAuthReqError
+  ProxyAuthReqError,
+  ConflictError
 };

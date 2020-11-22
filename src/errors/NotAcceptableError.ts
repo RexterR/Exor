@@ -1,6 +1,6 @@
 import { CustomError } from "./CustomError";
 
-const msg: string = "Doesn't found any content that conform to the criteria provided";
+const msg: string = "Not Acceptable:Doesn't found any content that conform to the criteria provided";
 
 export class NotAcceptableError extends CustomError {
     statusCode = 406;
