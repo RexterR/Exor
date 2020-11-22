@@ -10,6 +10,7 @@ import { PaymentRequiredError } from "./errors/PaymentRequiredError"
 import { MethodNotAllowed } from "./errors/MethodNotAllowed"
 import { ForbiddenError } from "./errors/ForbiddenError"
 import { NotAcceptableError } from "./errors/NotAcceptableError"
+import { ProxyAuthReqError } from "./errors/ProxyAuthReqError"
 
 export {
   errorHandler as default,
@@ -23,5 +24,6 @@ export {
   PaymentRequiredError,
   MethodNotAllowed,
   ForbiddenError,
-  NotAcceptableError
+  NotAcceptableError,
+  ProxyAuthReqError
 };
